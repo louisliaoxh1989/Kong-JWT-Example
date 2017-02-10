@@ -113,4 +113,6 @@ var expires = moment().add('seconds', 120).valueOf()	var token = jwt.encode(
 http://localhost:8000/testjwt/userinfo?jwt=xxxxxxxxxxxxx
 ```
 
+# 示例
 
+[NodeJs Example](https://github.com/louisliaoxh1989/Kong-JWT-Example/tree/master/NodeJs-Example)
